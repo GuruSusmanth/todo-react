@@ -1,12 +1,17 @@
+import React from 'react';
 import './style.css'
-import Home from './pages/home';
+import Home from './pages/Home';
+
 function App() {
   return (
-    <>
+    <div className="app">
     <h1>TODO-APP</h1>
     <Home/>
-    </>
+    </div>
   );
 }
 
 export default App;
+
+
+
